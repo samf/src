@@ -1,0 +1,8 @@
+.hg
+.hgignore
+.DS_Store
+blinky
+devmates
+gocode
+vcf2csv
+vitality.vim

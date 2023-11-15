@@ -1,0 +1,23 @@
+%!
+
+% Print a rectangle of the right size for putting blobs of sugru
+% to make non-slip feet on top of the power cord box for our
+% pairing station.
+
+initgraphics
+
+% The box is 6.125 inches wide, and much longer. Make it a golden
+% ratio rectangle.
+
+/height 6.125 2 sub 72 mul def
+/width height 1.61803 mul def
+
+newpath
+100 100 moveto
+0 height rlineto
+width 0 rlineto
+0 height -1 mul rlineto
+closepath
+stroke
+
+showpage
