@@ -1,5 +1,0 @@
-#! /usr/bin/osascript
-
-tell application "Mail"
-    activate
-end tell
